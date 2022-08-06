@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../assets/styles/styles.css">
-        <link rel="stylesheet" href="../assets/styles/navbar.css">
-        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        <?php
+            /* head included */
+            include '../includes/head.html';
+        ?>
         <title>OOP 2</title>
     </head>
-    <?php
-        /* navbar included */
-        include '../includes/navbar.php';
-    ?>
+    <nav>
+        <?php
+            /* navbar included */
+            include '../includes/navbar.php';
+        ?>
+    </nav>
     <body>
         <main class="d-flex flex-column mx-3">
             <h2 class="mt-5 text-center">TypeScript Quest : OOP 2</h2>
@@ -55,7 +54,7 @@
                 3) You must therefore create above these 7 functions the corresponding types
             </p>
             <p class="mb-4 h4">
-                4) Run : --> <b>tsc oop2/oop2.ts</b> <-- in your terminal, it will create the file : "oop2.js" in the <b>oop2</b> folder
+                4) Run : --> <b>tsc oop2/oop2.ts</b> <-- in your terminal, it will create the file "oop2.js" in the <b>oop2</b> folder
             </p>
             <p class="mb-4 h4">
                 5) For run the "oop2.js" file, type : --> <b>node oop2/oop2.js</b> <-- in your terminal
