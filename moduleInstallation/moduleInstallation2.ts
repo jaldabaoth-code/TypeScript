@@ -4,5 +4,5 @@ console.log("--- Quest Typescript - Module Installation ---\n");
 import { cpus } from 'os'; // Import ES6 style
 console.log(cpus());
 
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 console.log(chalk.red(JSON.stringify(cpus())));

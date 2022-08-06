@@ -32,10 +32,31 @@
                 4) The constant <b>wilders</b> is correctly typed
             </p>
             <p class="mb-4 h4">
-                5) Run --> <b>tsc installation/basic.ts installation/challenge.ts installation/hello.ts</b> <-- in your terminal, it will create 3 files in the installation folder : "basic.js", "challenge.js" and "hello.js"
+                5) Run : --> <b>tsc installation/basic.ts</b> <-- in your terminal, it will create "basic.js" file in the <b>installation</b> folder
             </p>
             <p class="mb-4 h4">
-                6) To execute these files, run --> <b>node installation/basic.js installation/challenge.js installation/hello.js</b> <-- in your terminal
+                6) Run : --> <b>tsc installation/challenge.ts</b> <-- in your terminal, it will create "challenge.js" file in the <b>installation</b> folder
+            </p>
+            <p class="mb-4 h4">
+                7) Run : --> <b>tsc installation/hello.ts</b> <-- in your terminal, it will create "hello.js" file in the <b>installation</b> folder
+            </p>
+            <p class="mb-4 h4">
+                8) For run the "basic.js" file, type : --> <b>node installation/basic.js</b> <-- in your terminal
+            </p>
+            <p class="mb-4 h4">
+                9) For run the "challenge.js" file, type : --> <b>node installation/challenge.js</b> <-- in your terminal
+            </p>
+            <p class="mb-4 h4">
+                10) For run the "hello.js" file, type : --> <b>node installation/hello.js</b> <-- in your terminal
+            </p>
+            <p class="mb-4 h4">
+                11) For run the "basic.ts" file, type : --> <b>ts-node installation/basic.ts</b> <-- in your terminal
+            </p>
+            <p class="mb-4 h4">
+                12) For run the "challenge.ts" file, type : --> <b>ts-node installation/challenge.ts</b> <-- in your terminal
+            </p>
+            <p class="mb-4 h4">
+                13) For run the "hello.ts" file, type : --> <b>ts-node installation/hello.ts</b> <-- in your terminal
             </p>
         </main>
     </body>

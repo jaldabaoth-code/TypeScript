@@ -1,3 +1,4 @@
+/* Quest Typescript - TypeScript to Java */
 export class Photo {
     url: string;
     fileName: string;

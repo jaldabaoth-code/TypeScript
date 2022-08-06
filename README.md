@@ -36,8 +36,8 @@
 
 0. Clone the repo from GitHub : `git clone git@github.com:jaldabaoth-code/TypeScript`
 1. Enter the directory : `cd TypeScript`
-2. Run `npm install`
-3. Run the internal PHP webserver with `php -S localhost:8000`
+2. Run : `npm install`
+3. Run the internal PHP webserver with : `php -S localhost:8000`
 4. Go to <b>localhost:8000</b> with your favorite browser
 5. Follow the information on the page of your browser
 
@@ -45,7 +45,7 @@
 
 ## The Links
 
-1. <a href="https://github.com/jaldabaoth-code/TypeScript/tree/main/discoveryTypeScript">Discovery Of TypeScript</a>
+1. <a href="https://github.com/jaldabaoth-code/TypeScript/tree/main/discoveryOfTypeScript">Discovery Of TypeScript</a>
 
 2. <a href="https://github.com/jaldabaoth-code/TypeScript/tree/main/typeScriptToJava">TypeScript to Java</a>
 

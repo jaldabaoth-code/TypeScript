@@ -1,3 +1,4 @@
+/* Quest Typescript - TypeScript to Java */
 public class Photo {
     private String url;
     private String fileName;

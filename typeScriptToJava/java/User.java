@@ -1,6 +1,6 @@
+/* Quest Typescript - TypeScript to Java */
 import java.util.Date;
 
-/* Quest Typescript - TypeScript to Java */
 public class User {
     private Date birthdate;
     private String size;

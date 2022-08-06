@@ -1,5 +1,5 @@
-/* Quest Typescript - OOP2 */
-console.log("--- Quest Typescript - OOP2 ---\n");
+/* Quest Typescript - OOP 2 */
+console.log("--- Quest Typescript - OOP 2 ---\n");
 
 /* Interface */
 interface Animal {

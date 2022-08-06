@@ -19,7 +19,6 @@
             <h2 class="mt-5 text-center">TypeScript Quest : Module Installation</h2>
             <hr>
             <h3 class="mt-3 text-center">Challenge/Goal</h3>
-
             <p class="mb-4 mt-4 h4">
                 1) You will have to display in red color the configuration of the cpus of your machine
             </p>
@@ -41,12 +40,14 @@
                 </div>
             </div>
             <p class="mb-4 h4">
-                5) Run --> <b>tsc moduleInstallation/moduleInstallation.ts</b> <-- in your terminal, it will create the files : "moduleInstallation.js" in the moduleInstallation folder 
+                5) Run : --> <b>tsc moduleInstallation/moduleInstallation.ts</b> <-- in your terminal, it will create "moduleInstallation.js" files in the <b>moduleInstallation</b> folder
             </p>
             <p class="mb-4 h4">
-                6) To execute these files, run --> <b>node moduleInstallation/moduleInstallation.js</b> <-- in your terminal
+                6) For run the "moduleInstallation.js" file, type : --> <b>node moduleInstallation/moduleInstallation.js</b> <-- in your terminal
+            </p>
+            <p class="mb-4 h4">
+                7) For run the "moduleInstallation2.ts" file, type : --> <b>ts-node moduleInstallation/moduleInstallation2.ts</b> <-- in your terminal
             </p>
         </main>
-        <script type="text/javascript" src="index.js"></script>
     </body>
 </html>

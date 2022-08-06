@@ -1,31 +1,23 @@
 /* Quest Typescript - OOP 1 */
 console.log("--- Quest Typescript - OOP 1 ---\n");
-
-class Person {
-    name: string;
-    age: number;
-
-    constructor(name: string, age: number) {
+var Person = /** @class */ (function () {
+    function Person(name, age) {
         this.name = name;
         this.age = age;
     }
-
-    tellMyName() {
+    Person.prototype.tellMyName = function () {
         console.log("I am " + this.name);
-    }
-    
-    tellMyAge() {
+    };
+    Person.prototype.tellMyAge = function () {
         console.log("I am " + this.age + " years old");
-    }
-}
-
-const john = new Person("John", 40);
-const mary = new Person("Mary", 35);
-
+    };
+    return Person;
+}());
+var john = new Person("John", 40);
+var mary = new Person("Mary", 35);
 /* Information about John */
 john.tellMyName();
 john.tellMyAge();
-
 /* Information about Mary */
 mary.tellMyName();
 mary.tellMyAge();
